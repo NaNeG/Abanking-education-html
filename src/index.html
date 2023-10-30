@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-		/>
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
 		<title>John</title>
 		<link
 			href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap"
 			rel="stylesheet"
-		/>
+		>
 	</head>
 
 	<body>
 		<header class="header">
 			<div class="header__container">
-				<div class="nav__container">
-					<nav class="header__nav">
+				<nav class="nav">
+					<div class="nav__container">
 						<ul class="nav__list">
 							<li class="nav__item">
 								<a class="nav__link" href="#">Works</a>
@@ -30,8 +27,8 @@
 								<a class="nav__link" href="#">Contact</a>
 							</li>
 						</ul>
-					</nav>
-				</div>
+					</div>
+				</nav>
 			</div>
 		</header>
 		<main>
@@ -40,7 +37,7 @@
 					<div class="info__container">
 						<div class="info__header">
 							<h1 class="info__title">
-								Hi, I am John,<br />
+								Hi, I am John,<br >
 								Creative Technologist
 							</h1>
 							<p class="info__text">
@@ -49,27 +46,31 @@
 								consequat duis enim velit mollit. Exercitation
 								veniam consequat sunt nostrud amet.
 							</p>
-              <a class="info__download" download href="#">
+							<a class="info__download" download href="#">
 								<p class="info__download-text">
 									Download Resume
 								</p>
 							</a>
 						</div>
-						
-            <img class="info__img" src="img/avatar.jpg"></img>
+
+						<img
+							class="info__img"
+							src="img/avatar.jpg"
+							alt="avatar of John"
+						>
 					</div>
 				</div>
 			</section>
 			<section class="posts">
 				<div class="posts__background-container">
 					<div class="container">
-            <div class="posts__header">
-              <h3 class="posts__header-title">Recent posts</h3>
-              <a class="posts__link" href="#">
-                <p>View all</p>
-              </a>
-            </div>
-						
+						<div class="posts__header">
+							<h3 class="posts__header-title">Recent posts</h3>
+							<a class="posts__link" href="#">
+								<p>View all</p>
+							</a>
+						</div>
+
 						<ul class="posts__list">
 							<li class="posts__item">
 								<a href="#">
@@ -121,93 +122,107 @@
 											class="featured__item-img"
 											src="img/first.png"
 											alt="first item image"
-										/>
-                    <div class="featured__item-description">
-                      <h4 class="featured__item-title">
-                        Designing Dashboards
-                      </h4>
-                      <div class="featured__item-info">
-                        <p class="featured__item-info-text">
-                          2020
-                        </p>
-                        <p class="featured__item-subtitle">
-                          Dashboard
-                        </p>
-                      </div>
-                      
-                      <p class="featured__item-text">
-                        Amet minim mollit non deserunt
-                        ullamco est sit aliqua dolor do amet
-                        sint. Velit officia consequat duis
-                        enim velit mollit. Exercitation
-                        veniam consequat sunt nostrud amet.
-                      </p>
-                    </div>
-										
+										>
+										<div class="featured__item-description">
+											<h4 class="featured__item-title">
+												Designing Dashboards
+											</h4>
+											<div class="featured__item-info">
+												<p
+													class="featured__item-info-text"
+												>
+													2020
+												</p>
+												<p
+													class="featured__item-subtitle"
+												>
+													Dashboard
+												</p>
+											</div>
+
+											<p class="featured__item-text">
+												Amet minim mollit non deserunt
+												ullamco est sit aliqua dolor do
+												amet sint. Velit officia
+												consequat duis enim velit
+												mollit. Exercitation veniam
+												consequat sunt nostrud amet.
+											</p>
+										</div>
 									</div>
 								</a>
 							</li>
 							<li class="featured__item">
 								<a href="#">
 									<div class="featured__item-box">
-                    <img
+										<img
 											class="featured__item-img"
 											src="img/second.png"
 											alt="second item image"
-										/>
-                    <div class="featured__item-description">
-                      <h4 class="featured__item-title">
-                        Vibrant Portraits of 2020
-                      </h4>
-                      <div class="featured__item-info">
-                        <p class="featured__item-info-text">
-                          2018
-                        </p>
-                        <p class="featured__item-subtitle">
-                          Illustration
-                        </p>
-                      </div>
-                      
-                      <p class="featured__item-text">
-                        Amet minim mollit non deserunt
-                        ullamco est sit aliqua dolor do amet
-                        sint. Velit officia consequat duis
-                        enim velit mollit. Exercitation
-                        veniam consequat sunt nostrud amet.
-                      </p>
-                    </div>
+										>
+										<div class="featured__item-description">
+											<h4 class="featured__item-title">
+												Vibrant Portraits of 2020
+											</h4>
+											<div class="featured__item-info">
+												<p
+													class="featured__item-info-text"
+												>
+													2018
+												</p>
+												<p
+													class="featured__item-subtitle"
+												>
+													Illustration
+												</p>
+											</div>
+
+											<p class="featured__item-text">
+												Amet minim mollit non deserunt
+												ullamco est sit aliqua dolor do
+												amet sint. Velit officia
+												consequat duis enim velit
+												mollit. Exercitation veniam
+												consequat sunt nostrud amet.
+											</p>
+										</div>
 									</div>
 								</a>
 							</li>
 							<li class="featured__item">
 								<a href="#">
 									<div class="featured__item-box">
-                    <img
+										<img
 											class="featured__item-img"
 											src="img/third.png"
 											alt="third item image"
-										/>
-                    <div class="featured__item-description">
-                      <h4 class="featured__item-title">
-                        36 Days of Malayalam type
-                      </h4>
-                      <div class="featured__item-info">
-                        <p class="featured__item-info-text">
-                          2018
-                        </p>
-                        <p class="featured__item-subtitle">
-                          Typography
-                        </p>
-                      </div>
-                      
-                      <p class="featured__item-text">
-                        Amet minim mollit non deserunt
-                        ullamco est sit aliqua dolor do amet
-                        sint. Velit officia consequat duis
-                        enim velit mollit. Exercitation
-                        veniam consequat sunt nostrud amet.
-                      </p>
-                    </div>
+										>
+										<div class="featured__item-description">
+											<h4 class="featured__item-title">
+												36 Days of Malayalam type
+											</h4>
+											<div class="featured__item-info">
+												<p
+													class="featured__item-info-text"
+												>
+													2018
+												</p>
+												<p
+													class="featured__item-subtitle"
+												>
+													Typography
+												</p>
+											</div>
+
+											<p class="featured__item-text">
+												Amet minim mollit non deserunt
+												ullamco est sit aliqua dolor do
+												amet sint. Velit officia
+												consequat duis enim velit
+												mollit. Exercitation veniam
+												consequat sunt nostrud amet.
+											</p>
+										</div>
 									</div>
 								</a>
 							</li>

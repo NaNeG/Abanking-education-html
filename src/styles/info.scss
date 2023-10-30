@@ -1,60 +1,60 @@
 .info {
-	&__container {
-		display: flex;
-		padding-top: 140px;
-		padding-bottom: 71px;
-	}
+  &__container {
+    display: flex;
+    padding-top: 140px;
+    padding-bottom: 71px;
+  }
 
-	&__header {
-		padding-top: 18px;
-		display: inline-block;
-		padding-bottom: 38px;
-	}
+  &__header {
+    padding-top: 18px;
+    display: inline-block;
+    padding-bottom: 38px;
+  }
 
-	&__title {
-		font-weight: 700;
-		font-size: 44px;
-		line-height: 60px;
-		margin-bottom: 40px;
-		color: var(--dark-color);
-	}
+  &__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 40px;
+    color: var(--dark-color);
+  }
 
-	&__text {
-		font-weight: 400;
+  &__text {
+    font-weight: 400;
     max-width: 374px;
-		font-size: 16px;
-		line-height: 24px;
+    font-size: 16px;
+    line-height: 24px;
     margin-bottom: 38px;
-		color: var(--dark-color);
-	}
+    color: var(--dark-color);
+  }
 
-	&__img {
-		width: 243px;
-		height: 243px;
-		margin-left: auto;
-		border-radius: 10px;
-	}
+  &__img {
+    width: 243px;
+    height: 243px;
+    margin-left: auto;
+    border-radius: 10px;
+  }
 
-	&__download {
-		display: flex;
-		width: fit-content;
-		min-width: 208px;
-		height: 47px;
-		padding: 9px 21px 17px 20px;
+  &__download {
+    display: flex;
+    width: fit-content;
+    min-width: 208px;
+    height: 47px;
+    padding: 9px 21px 17px 20px;
 
-		background-color: var(--primary);
-		border-radius: 2px;
+    background-color: var(--primary);
+    border-radius: 2px;
 
-		transition: opacity 0.3s ease;
-		&:hover {
-			opacity: 0.7;
-		}
-	}
+    transition: opacity 0.3s ease;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
 
-	&__download-text {
-		font-weight: 500;
-		font-size: 20px;
-		line-height: 29px;
-		color: #ffffff;
-	}
+  &__download-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #ffffff;
+  }
 }

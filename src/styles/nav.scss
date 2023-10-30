@@ -1,25 +1,27 @@
 .nav {
-	&__container {
-		padding-left: 148px;
-		padding-right: 60px;
-	}
+  
 
-	&__link {
-		font-weight: 500;
-		font-size: 20px;
-		line-height: 29px;
-		color: #000000;
-		transition: opacity 0.3s ease;
-		&:hover {
-			opacity: 0.6;
-		}
-	}
+  &__container {
+    padding-left: 148px;
+    padding-right: 60px;
+  }
 
-	&__list {
-		gap: 33px;
-		display: flex;
-		align-items: center;
-		justify-content: flex-end;
-		min-height: 70px;
-	}
+  &__link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+    transition: opacity 0.3s ease;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  &__list {
+    gap: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 70px;
+  }
 }
